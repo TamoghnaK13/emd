@@ -66,7 +66,28 @@
 <p><small>Note: To access Emdocs, you must use a computer and we also recommend using the latest version of Chrome, Safari, Firefox, Opera, Brave or Edge.</small></p>
 
 
-
+<html>
+  <head>
+    <title>Sigin In</title>
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : 'AIzaSyBXEQv_s7KWtGEt1_g2S_EKaKMoGaTUw_E'
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div id="html_element"></div>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
+  </body>
+</html>
 
 
 
