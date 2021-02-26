@@ -86,8 +86,14 @@
     </script>
   </head>
   <body>
-    <form display="none" action="#" method="POST">
-      <input display="none" id='submit' type="submit" value="Submit">
+   <style>
+	   .nope {
+            display: none;
+	   }
+	  </style>
+	  
+	  <form display="none" action="#" method="POST">
+      <input display="none" id='submit' class="nope" type="submit" value="Submit">
     </form>
     <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
         async defer>
