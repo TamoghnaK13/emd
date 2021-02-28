@@ -1,8 +1,8 @@
  <script>
     function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
- document.getElementById('lol').style.visibility='hidden';
-document.getElementById('app').style.visibility='visible';
+ document.getElementById('lol').style.display='none';
+document.getElementById('app').style.display='inline-block';
   // window.location.href = 'https://verified.emdocs.tk/4587ty34fwh94gtyhvf8yigvh934857ttgfyvtveriubgfviebgrv9e8rw3ghr8t7gy248fhy498gvthf324985tg3h548frhy94383gh98gf3h4t538y945g4gh984gt7f.html?code=google-sign-in%20auth=verified';
  // console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
 console.log('Name: ' + profile.getName());
@@ -130,7 +130,7 @@ console.log('Name: ' + profile.getName());
 </div>
 							     </div>
 							     
-		 <div id="app" class="app" visibility="hidden">
+		 <div id="app" class="app" display="none">
 										      
 										      
 										      <script async src="https://arc.io/widget.min.js#npvbzSfu" type="a3dd02dd5375642f5c0fbf5e-text/javascript"></script>
